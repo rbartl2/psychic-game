@@ -24,7 +24,7 @@ document.onkeypress = function(event) {
     if (guessesLeft === 0) {
         losses++;
         guessesLeft= 12
-        guessedLetters = [];
+        guessedLetters = [];j
     }
 
     document.getElementById("wins").innerHTML = wins;
